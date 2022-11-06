@@ -32,7 +32,7 @@ Version: ${_VERSION}
 Architecture: ${_ARCH}
 Maintainer: @HackerSM9
 Depends: ${_depend}
-Homepage: https://github.com/HackerSM9/zphisher
+Homepage: https://github.com/HackerSM9/sm9-phisher
 Description: An automated phishing tool with 30+ templates. This Tool is made for educational purpose only !
 CONTROL_EOF
 
