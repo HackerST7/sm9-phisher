@@ -10,7 +10,7 @@ fi
 
 CONTAINER="zphisher"
 IMAGE="HackerSM9/zphisher:latest"
-IMG_MIRROR="ghcr.io/htr-tech/zphisher:latest"
+IMG_MIRROR="ghcr.io/HackerSM9/zphisher:latest"
 MOUNT_LOCATION=${BASE_DIR}/auth
 check_container=$(docker ps --all --format "{{.Names}}")
 
