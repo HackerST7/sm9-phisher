@@ -8,9 +8,9 @@ if [[ ! -d "$BASE_DIR/auth" ]]; then
 	mkdir -p "$BASE_DIR/auth"
 fi
 
-CONTAINER="zphisher"
-IMAGE="HackerSM9/zphisher:latest"
-IMG_MIRROR="ghcr.io/HackerSM9/zphisher:latest"
+CONTAINER="sm9-phisher"
+IMAGE="HackerSM9/sm9-phisher:latest"
+IMG_MIRROR="ghcr.io/HackerSM9/sm9-phisher:latest"
 MOUNT_LOCATION=${BASE_DIR}/auth
 check_container=$(docker ps --all --format "{{.Names}}")
 
@@ -18,7 +18,7 @@ if [[ ! $check_container == $CONTAINER ]]; then
 	echo "Creating new container..."
 	docker create \
 		--interactive --tty \
-		--volume ${MOUNT_LOCATION}:/zphisher/auth/ \
+		--volume ${MOUNT_LOCATION}:/sm9-phisher/auth/ \
 		--network host \
 		--name "${CONTAINER}" \
 		"${IMAGE}"
@@ -26,4 +26,4 @@ fi
 
 docker start --interactive "${CONTAINER}"
 
-# docker run --rm -ti --network="host" -v ${MOUNT_LOCATION}:/zphisher/auth/ --name "$CONTAINER" "$IMAGE"
+# docker run --rm -ti --network="host" -v ${MOUNT_LOCATION}:/sm9-phisher/auth/ --name "$CONTAINER" "$IMAGE"
