@@ -2,19 +2,17 @@
 All in one Hacking Tool
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-2.3.4-green?style=for-the-badge">
-  <img src="https://img.shields.io/github/license/htr-tech/zphisher?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/htr-tech/zphisher?style=for-the-badge">
-  <img src="https://img.shields.io/github/issues/htr-tech/zphisher?color=red&style=for-the-badge">
-  <img src="https://img.shields.io/github/forks/htr-tech/zphisher?color=teal&style=for-the-badge">
+  <img src="https://img.shields.io/badge/Version-7.0.0-green?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/HackerSM9/sm9-phisher?style=for-the-badge&color=teal">
+  <img src="https://img.shields.io/github/stars/HackerSM9/sm9-phisher?style=for-the-badge">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Author-htr--tech-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/Author-HackerSM9-blue?style=flat-square">
   <img src="https://img.shields.io/badge/Open%20Source-Yes-darkgreen?style=flat-square">
   <img src="https://img.shields.io/badge/Maintained%3F-Yes-lightblue?style=flat-square">
-  <img src="https://img.shields.io/badge/Written%20In-Bash-darkcyan?style=flat-square">
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhtr-tech%2Fzphisher&title=Visitors&edge_flat=false"/></a>
+  <img src="https://img.shields.io/badge/Written%20In-Shell-darkcyan?style=flat-square">
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FHackerSM9%2Fsm9-phisher&title=Visitors&edge_flat=false"/></a>
 </p>
 
 <p align="center"><b>A beginners friendly, Automated phishing tool with 30+ templates.</b></p>
@@ -23,7 +21,7 @@ All in one Hacking Tool
 
 <h3><p align="center">Disclaimer</p></h3>
 
-<i>Any actions and or activities related to <b>Zphisher</b> is solely your responsibility. The misuse of this toolkit can result in <b>criminal charges</b> brought against the persons in question. <b>The contributors will not be held responsible</b> in the event any criminal charges be brought against any individuals misusing this toolkit to break the law.
+<i>Any actions and or activities related to <b>SM9-phisher</b> is solely your responsibility. The misuse of this toolkit can result in <b>criminal charges</b> brought against the persons in question. <b>The contributors will not be held responsible</b> in the event any criminal charges be brought against any individuals misusing this toolkit to break the law.
 
 <b>This toolkit contains materials that can be potentially damaging or dangerous for social media</b>. Refer to the laws in your province/country before accessing, using,or in any other way utilizing this in a wrong way.
 
@@ -47,10 +45,11 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 ##
 
 ### Installation
-```
+```sh
 cd 
 git clone --depth=1 https://github.com/HackerSM9/sm9-phisher
-
+cd sm9-phisher
+bash setup.sh
 ```
 
 ### A Note : 
@@ -62,12 +61,12 @@ git clone --depth=1 https://github.com/HackerSM9/sm9-phisher
 
 ### Dependencies
 
-**sm9phisher** requires following programs to run properly - 
+**SM9-phisher** requires following programs to run properly - 
 - `git`
 - `curl`
 - `php`
 
-> All the dependencies will be installed automatically when you run **Zphisher** for the first time.
+> All the dependencies will be installed automatically when you run **SM9-phisher** for the first time.
 
 ### Tested on
 
