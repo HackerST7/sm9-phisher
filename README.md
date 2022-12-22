@@ -2,7 +2,7 @@
 All in one Hacking Tool
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-7.0.0-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Version-9.5.0-green?style=for-the-badge">
   <img src="https://img.shields.io/github/license/HackerSM9/sm9-phisher?style=for-the-badge&color=teal">
   <img src="https://img.shields.io/github/stars/HackerSM9/sm9-phisher?style=for-the-badge">
 </p>
