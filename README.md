@@ -1,5 +1,5 @@
 # sm9-phisher
-All in one Hacking Tool
+All in one Hacking Tool & Master in Phishing
 <hr>
 <p align="center">
   <img src="https://img.shields.io/badge/Version-9.5.0-green?style=for-the-badge">
